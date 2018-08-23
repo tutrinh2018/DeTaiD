@@ -1,0 +1,10 @@
+using System;
+using System.EnterpriseServices;
+using System.Reflection;
+using DDTek.SQLServer;
+[assembly: ApplicationName("yourapplicationname")]
+[assembly: AssemblyKeyFileAttribute(@"..\..\yourapplicationname.snk")]
+namespace DistTransaction
+{
+/// <summary>
+/// Summary descrip

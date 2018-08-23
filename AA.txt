@@ -1,0 +1,14 @@
+CREATE TABLE emp (
+empno INT PRIMARY KEY,
+ename VARCHAR(10),
+job VARCHAR(9),
+mgr INT NULL,
+hiredate DATETIME,
+sal NUMERIC(7,2),
+comm NUMERIC(7,2) NULL,
+dept INT)
+begin
+insert into emp values
+    (1,'JOHNSON','ADMIN',6,'12-17-1990',18000,NULL,4)
+insert into emp values
+    (2,'HARDING','MANAGER',9,'02-02-1998',52000,300,3)
