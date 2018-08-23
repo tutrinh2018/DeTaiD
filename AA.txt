@@ -1,3 +1,5 @@
+hello
+how are you?
 CREATE TABLE emp (
 empno INT PRIMARY KEY,
 ename VARCHAR(10),
