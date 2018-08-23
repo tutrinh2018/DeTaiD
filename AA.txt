@@ -1,3 +1,4 @@
+I'm Trinh, was born in Tu Du.
 CREATE TABLE emp (
 empno INT PRIMARY KEY,
 ename VARCHAR(10),
